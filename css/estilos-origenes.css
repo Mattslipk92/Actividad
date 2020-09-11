@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: rgb(255, 235, 169);
+    
+    
+
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#menu{
+    padding: 0px 0px;
+}
+
+header #menu ul{
+
+    padding: 0;
+    margin: 0;
+}
+header #menu ul li{
+
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+header #menu li a{
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: white;
+}
+
+header #menu li a:hover{
+
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+header #menu ul #inicio{
+    
+    margin-right: 55%;
+    margin-left: 100px;
+}
+
+/* --------------------------------------------------------------------- */
+#main-container header main{
+
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+#main-container header main div{
+
+   display: inline-block;
+   vertical-align: middle;
+    
+}
+#main-container header main .titulo h1{
+   margin: 10px 400px;
+    font-size: 50px;
+    text-align: center;
+    text-anchor: middle;
+    width: 400px;
+}
+#main-container header main .intro p{
+    
+    padding: 20px 50px;
+        
+}
+
+#main-container header main figure{
+    text-align: right;
+   
+}
+
+#main-container header main div .text h1{
+    margin: 0px 500px;
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10%;
+    text-align: center;
+  
+}
+.titulo h1{
+    text-align: center;
+    font-size: 34;
+    font-weight: bold;
+    
+}

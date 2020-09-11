@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    
+   
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-image: url(../Imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: unset;
+}
+#menu{
+    padding: 0px 0px;
+}
+
+header #menu ul{
+
+    padding: 0;
+    margin: 0;
+}
+header #menu ul li{
+
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+header #menu li a{
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: white;
+}
+
+header #menu li a:hover{
+
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+header #menu ul #inicio{
+    
+    margin-right: 55%;
+    margin-left: 100px;
+}
+
+/* --------------------------------------------------------------------- */
+#main-container header main{
+
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+#main-container header main div{
+
+   display: inline-block;
+   vertical-align: middle;
+    
+}
+#main-container header main .text h1{
+    margin: 0px 175px;
+    font-size: 50px;
+    text-align: right;
+    text-shadow: 
+    1.5px  0px 0px black,
+    0px  1.5px 0px black,
+   -1.5px  0px 0px black,
+    0px -1.5px 0px black;
+}
+#main-container header main .text p{
+    margin: 0px 200px;
+    width: 300px;
+    text-align: center;
+    padding: 20px 0;
+    color: black;
+    text-shadow: 
+    1px  0px 0px white,
+    0px  1px 0px white,
+   -1px  0px 0px white,
+    0px -1px 0px white;
+    font-weight: bold;
+    font-size: 12;
+        
+}
+button{
+
+    background-color: rgb(129, 121, 107);
+    border: 0;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px;
+}
+button:hover{
+    background-color: rgb(192, 174, 143) ;
+
+}
+#main-container header main .image{
+    text-align: left;
+   
+}
+.contacto{
+    background-color: darkkhaki;
+    padding: 10px;
+}
+
+.juego{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10%;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: black;
+    text-shadow: 
+    1px  0px 0px white,
+    0px  1px 0px white,
+   -1px  0px 0px white,
+    0px -1px 0px white;
+    font-weight: bold;
+    font-size: 24;
+}
+.pulsador{
+    color: black;
+    text-shadow: 
+    1px  0px 0px white,
+    0px  1px 0px white,
+   -1px  0px 0px white,
+    0px -1px 0px white;
+    font-weight: bold;
+    font-size: 12;
+}
+#botonjuego{
+    background-color: chocolate;
+}
+.caja p{
+    text-align: center;
+    color: black;
+    text-shadow: 
+    1px  0px 0px white,
+    0px  1px 0px white,
+   -1px  0px 0px white,
+    0px -1px 0px white;
+    font-weight: bold;
+    font-size: 12;
+}
+#imgjuego{
+    display: flex;
+    align-items: center;
+}
